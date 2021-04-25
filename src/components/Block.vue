@@ -35,12 +35,13 @@ export default {
 
 <style>
   .block {
-    width: 400px;
+    width: 500px;
     border-radius: 20px;
     background: rgb(113, 151, 233);
     color: white;
     text-align: center;
     padding: 100px 0;
     margin: 40px auto;
+    font-size: 1.75rem;
   }
 </style>

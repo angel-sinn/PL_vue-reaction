@@ -41,7 +41,22 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #07427c;
+  color: #0c5196;
   margin-top: 60px;
+}
+button {
+  background: rgb(113, 151, 233);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin: 10px;
+}
+button[disabled] {
+  opacity: 0.3;
+  cursor: not-allowed;
 }
 </style>
